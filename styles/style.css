@@ -36,6 +36,13 @@ body {
     grid-template-columns: 50% 50%;
     margin: 0% 0% 0% 5%;
     align-items: center;
+    text-align: center;
+}
+
+.container__conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
 }
 
 .container__titulo {
